@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
           {id: 'school', title: 'LANGUAGE'}
       ]
   });
-     console.log(csvWriter)
+   
   const records = [
     {name: name,  email: email,about:about,school:student}
 
